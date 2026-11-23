@@ -196,3 +196,17 @@ footer a{color:var(--ink)}
   .steps li,.phrase span{transition:none}
   .washing .water{animation:none;height:0}
 }
+
+/* about */
+.about__grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,5vw,64px);align-items:center}
+.about__ph{margin:0;border-radius:var(--r);overflow:hidden;box-shadow:0 34px 60px -40px rgba(30,60,58,.55)}
+.about__ph img{display:block;width:100%;height:auto}
+.about h2{margin:14px 0 18px}
+.about__h{font-size:clamp(20px,2vw + 8px,26px);margin:28px 0 12px}
+.about__h--c{margin:clamp(36px,5vw,64px) 0 18px}
+.edu{margin:0;padding:0 0 0 1.1em;color:var(--mute);display:grid;gap:8px}
+.diplomas{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.diplomas figure{margin:0}
+.diplomas img{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 18px 40px -28px rgba(30,60,58,.6)}
+.diplomas figcaption{margin-top:8px;font-size:14px;color:var(--mute)}
+@media (max-width:860px){.about__grid{grid-template-columns:1fr}.about__ph{max-width:420px}.diplomas{grid-template-columns:repeat(2,1fr)}}
