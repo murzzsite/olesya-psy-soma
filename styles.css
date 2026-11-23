@@ -204,6 +204,7 @@ footer a{color:var(--ink)}
 .about h2{margin:14px 0 18px}
 .about__h{font-size:clamp(20px,2vw + 8px,26px);margin:28px 0 12px}
 .about__h--c{margin:clamp(36px,5vw,64px) 0 18px}
+.edu-now{margin:0;color:var(--mute)}
 .edu{margin:0;padding:0 0 0 1.1em;color:var(--mute);display:grid;gap:8px}
 .diplomas{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .diplomas figure{margin:0}
